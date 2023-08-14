@@ -1,3 +1,7 @@
+[![Deploy static content to Pages](https://github.com/Turovae/ra16-router-menu/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/Turovae/ra16-router-menu/actions/workflows/jekyll-gh-pages.yml)
+
+---
+
 Навигационное меню
 ===
 
