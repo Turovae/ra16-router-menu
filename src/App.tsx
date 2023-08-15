@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 
 import Menu from "./components/Menu";
 import HomePage from "./routes/HomePage";
@@ -17,6 +17,7 @@ function App() {
             <Route path="/drift" element={<DriftPage />} />
             <Route path="/timeattack" element={<TimeAttackPage />} />
             <Route path="/forza" element={<ForzaPage />} />
+            <Route path="/*" element={<Navigate to="/" />} />
           </Routes>
         </div>
       </div>
